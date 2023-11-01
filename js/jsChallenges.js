@@ -32,3 +32,8 @@ function challenge3(){
 
 
 
+function showImage(index){
+
+    document.querySelectorAll('img')[index].title = document.querySelectorAll('img')[index].alt;
+
+}
